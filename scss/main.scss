@@ -1,0 +1,126 @@
+.container{
+	posittion: relative;
+	width: 1416px;
+	height: 1200px;
+	background-color: #F5F5F1;
+}
+
+.seca{
+	position:relative;
+	border-bottom: 1px solid #E1E3DF;
+	height:65;
+	top: 0;
+	background-color: #FFFFFF;
+}
+
+.logo{
+	width: 53px;
+	height: 18px;
+	margin-top: 27px;
+	margin-left: 196px;
+	
+	
+}
+
+.logo a{
+	text-decoration: none;
+	color: #F76400;
+	font-size: 2em;
+}
+
+ul {
+	list-style: none;
+}
+
+.input span {
+	font-size: 10px;
+}
+
+.topnav li{
+	display: inline;
+	font-size: .8em;
+	
+}
+
+ul a{
+	margin: 7px;
+	text-decoration: none;
+	color: #0593B7;
+}
+
+.input{
+	position: absolute;
+	left: 288px;
+  top: 10px;
+}
+
+.account {
+	position: relative;
+	top: -42px;
+	left: 733px;
+}
+
+.button span{
+	border-radius: 3px;
+	color: #0593B7; 
+	height: 2px;
+	border: 1px solid #0593B7; 
+}
+
+li span {
+    font-size: 1em;
+    padding: 10px;
+    margin: 3px;
+    margin-right: 45px;
+}
+
+.topnav a img {
+    height: 27px;
+    border-left: 1px solid black;
+    padding-left: 8px;
+}
+
+.secb{
+	position:relative;
+	border-bottom: 1px solid #E1E3DF;
+	top: -16px;
+	background-color: #FFFFFF;
+}
+
+.navb a{
+	position: relative;
+	text-decoration: none;
+	color:	#656565;
+	font-size: 12px;
+	left: 0;
+}
+
+.cloth li{
+	display: inline;
+	
+}
+
+
+
+
+.sidenav{
+	float: left;
+	position: relative;
+	width: 353px;
+	left: 194px;
+
+}
+
+.results{
+	position: relative;
+	width:236px;
+	left: 5px;
+	top: -8px;
+	background-color: #FFFFFF;
+}
+
+
+.showfor{
+	border: 1px solid black;
+	height:352px;
+}
