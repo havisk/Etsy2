@@ -1,32 +1,65 @@
+h5 {
+  color: #555555; }
+
 .container {
   posittion: relative;
   width: 1416px;
-  height: 1200px;
+  height: 3000px;
   background-color: #F5F5F1; }
 
 .seca {
   position: relative;
   border-bottom: 1px solid #E1E3DF;
-  height: 65;
-  top: 0;
+  padding-bottom: 11px;
+  height: 60px;
   background-color: #FFFFFF; }
 
 .logo {
   width: 53px;
-  height: 18px;
   margin-top: 27px;
   margin-left: 196px; }
 
 .logo a {
+  float: left;
+  font-family: 'Tinos', serif;
   text-decoration: none;
   color: #F76400;
-  font-size: 2em; }
+  font-size: 2.6em; }
 
 ul {
   list-style: none; }
 
 .input span {
   font-size: 10px; }
+
+.input {
+  position: absolute;
+  left: 288px;
+  top: 9px; }
+
+.shops {
+  position: relative;
+  font-size: 13px;
+  color: #AAAAAA;
+  background-color: #FBFBFA;
+  border: 1px solid #AAAAAA;
+  border-radius: 4px;
+  width: 243px;
+  height: 29px;
+  padding-left: 14px; }
+
+.butt {
+  position: relative;
+  left: -12px;
+  height: 34px;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #2BA8C6;
+  border: 1px solid #2BA8C6;
+  padding: 7px 9px;
+  top: -1px; }
 
 .topnav li {
   display: inline;
@@ -37,21 +70,31 @@ ul a {
   text-decoration: none;
   color: #0593B7; }
 
-.input {
-  position: absolute;
-  left: 288px;
-  top: 10px; }
-
 .account {
   position: relative;
-  top: -42px;
-  left: 733px; }
+  top: 14px;
+  left: 606px; }
 
 .button span {
   border-radius: 3px;
   color: #0593B7;
   height: 2px;
   border: 1px solid #0593B7; }
+
+.lefty {
+  position: relative;
+  left: -30px;
+  font-size: 15px;
+  padding-top: 4px;
+  top: -8px;
+  margin-bottom: -15px; }
+
+.left {
+  position: relative;
+  left: -30px;
+  font-size: 12px;
+  padding: 4px;
+  top: -9px; }
 
 li span {
   font-size: 1em;
@@ -60,12 +103,26 @@ li span {
   margin-right: 45px; }
 
 .topnav a img {
-  height: 27px;
-  border-left: 1px solid black;
+  color: #A9A9A9;
+  position: relative;
+  left: 245px;
+  top: -31px;
+  height: 25px;
+  border-left: 1px solid #A9A9A9;
   padding-left: 8px; }
+
+.para {
+  position: relative;
+  color: #A9A9A9;
+  left: 482px;
+  top: -48px;
+  border-left: 1px solid #A9A9A9;
+  padding-left: 8px;
+  height: 17px; }
 
 .secb {
   position: relative;
+  padding-bottom: 11px;
   border-bottom: 1px solid #E1E3DF;
   top: -16px;
   background-color: #FFFFFF; }
@@ -74,8 +131,13 @@ li span {
   position: relative;
   text-decoration: none;
   color: #656565;
-  font-size: 12px;
+  font-size: 14.3px;
   left: 0; }
+
+.cloth {
+  position: relative;
+  padding-left: 190px;
+  top: 11px; }
 
 .cloth li {
   display: inline; }
@@ -94,5 +156,56 @@ li span {
   background-color: #FFFFFF; }
 
 .showfor {
-  border: 1px solid black;
-  height: 352px; }
+  border: 1px solid #E1E3DF; }
+
+.currency {
+  width: 4px; }
+
+.pinput {
+  position: relative;
+  left: -35px; }
+
+.pinput li {
+  display: inline;
+  font-size: 12px; }
+
+.refine {
+  border: 1px solid #E1E3DF;
+  position: relative;
+  width: 236px;
+  background-color: #FFFFFF;
+  margin-top: -12px; }
+
+.curr {
+  font-size: 16px;
+  width: 43px;
+  height: 41px;
+  border: 1px solid #CCCCCC;
+  border-left: none;
+  color: #A9A9A9; }
+
+.input-group-addon {
+  margin-right: 0px;
+  padding: 8px;
+  padding-bottom: 13px;
+  border: 1px solid #CCCCCC;
+  border-right: none; }
+
+.pinput span {
+  position: relative;
+  font-size: 19px; }
+
+.arrow {
+  content: "\25B6";
+  font-size: 15px;
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+  position: relative;
+  float: right;
+  top: -45px;
+  left: 26px;
+  height: 46px;
+  width: 46px; }
+
+.arrow:before {
+  content: "\25B6"; }
