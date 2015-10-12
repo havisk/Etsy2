@@ -1,12 +1,15 @@
+
+body{
+  background-color: #F5F5F1;
+}
+
 h5{
 	color: #555555;
 }
 
 
 .container{
-	posittion: relative;
-	width: 1416px;
-	height: 3000px;
+	width: 100%;
 	background-color: #F5F5F1;
 }
 
@@ -182,6 +185,7 @@ li span {
 	position: relative;
 	width: 353px;
 	left: 194px;
+	height: 2000px;
 
 }
 
@@ -224,11 +228,16 @@ li span {
   margin-top: -12px;
   left: 4px;
 }
+.refine h5{
+	position: relative;
+	left: 7px;
+	top: -12px;
+}
 
 .item {
 	position:relative;
-	left: 7px;
-  top: -12px;
+  top: 45px;
+  left: 92px;
 }
 
 .refineb{
@@ -479,12 +488,132 @@ left: 9px;
   height: 32px;
   width: 205px;
   border: 1px solid #e2e2e2;
-
 }
 
-p{
-	display: inline-block;
-	position: relative;
+.item-results {
+  width: 730px;
+  height: 2180px;
+  clear: both; 
 }
 
 
+.item {
+  margin: 6px;
+  height: 227px;
+  width: 225px;
+  border: 1px solid #E1E3DF;
+  border-radius: 3px;
+  overflow: hidden;
+  display: inline-block;
+  float: left; 
+}
+
+.item-img {
+  height: 180px;
+  padding-bottom: 0;
+   }
+
+.item-img p {
+  margin: 0;
+   }
+
+.item-img p img {
+  width: 100%;
+   }
+
+.item-title p {
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+
+.item-subtitle p {
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #76C238;
+  display: inline; 
+}
+
+.shop {
+  float: left; 
+}
+
+.shop a {
+  font-size: 12px;
+  color: #B3B3B3;
+  text-decoration: none; 
+}
+
+.price {
+  float: right;
+   }
+
+ .good{
+  position: relative;
+  top: -2414px;
+  left: 447px;
+ }  
+
+ .good li a{
+  font-size:  14px;
+ }
+ .good li{
+  display: inline;
+  
+ }
+
+ .first, .second {
+  position: relative;
+  left: -47px;
+ }
+
+ .good li span{
+  font-size: 12px;
+
+ }
+
+ .x{
+  position: relative;
+  left: 87px;
+ }
+
+ .y{
+  position: relative;
+  left: 193px;
+ }
+
+ .k{
+  position: relative;
+  left: 52px;
+ }
+
+ .j{
+  position: relative;
+  left: 88px;
+ }
+
+ .third{
+  position: relative;
+  left: -53px;
+ }
+
+ .yep{
+  position: relative;
+  left: -59px;
+ }
+
+ .numbers a{
+  border: 1px solid #D9D9D9;
+  padding: 7px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+ }

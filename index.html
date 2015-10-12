@@ -79,7 +79,7 @@
 					<h5>Refine your search</h5>
 				</div>
 				<div class="refine">
-					<h5 class="item">Item Type</h5>
+					<h5>Item Type</h5>
 					<ul class="refineb">
 						<li><input type="radio" name="group1" value="item" checked >All Items</li>
 						<li><input type="radio" name="group1" value="item">Handmade</li>
@@ -151,28 +151,72 @@
 				</div>
 				</div>
 		</section>
-		<section>
-			<h3>Top categories for "free"</h3>
-		</section>
 
-
-<img src="">
-
-	<script type="text/template" id="itemTemplate">
-  <div>
-    <img src="<%= Images[0].url_170x135%>">
-    <p>
-      <%= title%>
-    </p>  
-    <p>
-      <%= price%>
-    </p>
-    <p>
-      
-    </p>
-  </div>
-</script>
 </div>
+
+<section class="item-results">
+ 
+    <script type="text/template" id="itemTemplate">
+
+      <div class= "item">
+
+       <div class= "item-img">
+        <p><img src=" <%= Images[0].url_170x135 %>"></p>
+       </div>
+
+        <div class="item-disc">   
+         <div class="item-title">
+          <p> <%= title %></p> 
+         </div>
+        <div class="item-subtitle">
+          <p class="shop"><a href="#"> <%= Shop.shop_name %> </a> </p>
+          <p class="price"><%= "$"+price+" "+currency_code %></p>
+         </div>    
+       </div>
+
+      </div>
+
+    </script>
+
+</section>
+	<section class="good">
+	<h5>Related to <span>free</span></h5>
+	<ul class="first">
+		<li><a href="#">free stuff</a></li>
+		<li class="x"><a href="#">free anime</a></li>
+		<li class="y"><a href="#">free crochet patterns</a></li>
+	</ul>
+	<ul class="second">
+		<li><a href="#">free printables</a></li>
+		<li class="k"><a href="#">free iwatobi swim club</a></li>
+		<li class="j"><a href="#">free people</a></li>
+	</ul>
+	<ul class="third">
+		<li><span>Looking for shops?</span></li>
+		<li class="yep"><a href="#">freemoment,</a></li>
+		<li class="yep"><a href="#">Freeheart1,</a></li>
+		<li class="yep"><a href="#">FreeRangeBookbinding.</a></li>
+		<li class="yep"><a href="#">See more.</a></li>
+	</ul>
+
+	 <div class="numbers">
+    <a class="page"><</a>
+    <a class="page" href="#">1</a>
+    <a class="page" href="#">2</a>
+    <a class="page"href="#">3</a>
+    <a class="page"href="#">4</a>
+    <a class="page"href="#">5</a>
+    <a class="page"href="#">6</a>
+    <a class="page"href="#">7</a>
+    <a class="page"href="#">8</a>
+    <a class="page"disabled="disabled">...</a>
+    <a class="page"href="#">234</a>
+    <a class="page">></a>  
+   </div>
+</section>
+
+</div>
+
 
 
 
