@@ -79,40 +79,43 @@
 					<h5>Refine your search</h5>
 				</div>
 				<div class="refine">
+					<h5 class="item">Item Type</h5>
 					<ul class="refineb">
-						<li>Item Type</li>
 						<li><input type="radio" name="group1" value="item" checked >All Items</li>
 						<li><input type="radio" name="group1" value="item">Handmade</li>
 						<li><input type="radio" name="group1" value="item">Vintage</li>
-						<br><br>
+						</ul>
+						<hr size=1>
 						<div class="low">
-							<li><h5>Price</h5></li>
+							<h5>Price</h5>
 						</div>
 						<div class="pinput">
+							<ul>
 							<li>
-							<span class="input-group-addon">$</span><input type="text" placeholder="Low" value="Low" class="curr">
-							</li>
-							<li>to</li>
-							<li>
-							<span class="input-group-addon">$</span><input type="text" placeholder="High" value="High"class="curr">
-							</li>
-							<li><button type="submit" class="arrow"></button></li>
+								<span class="input-group-addon">$</span><input type="text" placeholder="Low" value="Low" class="curr">
+								</li>
+								<li>to</li>
+								<li>
+								<span class="input-group-addon">$</span><input type="text" placeholder="High" value="High"class="curr">
+								</li>
+								<li><button type="submit" class="arrow"></button></li>
+							</ul>
 						</div>
-					</ul>
-				</div>
+				<hr size=1>
 				<div class="filter">
 					<h5>Filter by Color</h5>
-					<ul>
-						<li class="color">red</li>
-						<li class="color">orange</li>
-						<li class="color">yellow</li>
-						<li class="color">green</li>
-						<li class="color">turquoise</li>
-						<li class="color">purple</li>
-						<li class="color">black</li>
-						<li class="color">white</li>
+					<ul class="fc">
+						<li class="color"><a href="#" class="red">red</a></li>
+						<li class="color"><a href="#" class="orange">red</a></li>
+						<li class="color"><a href="#" class="yellow">red</a></li>
+						<li class="color"><a href="#" class="green">red</a></li>
+						<li class="color"><a href="#" class="turquoise">red</a></li>
+						<li class="color"><a href="#" class="purple">red</a></li>
+						<li class="color"><a href="#" class="black">red</a></li>
+						<li class="color"><a href="#" class="white">red</a></li>
 					</ul>
 				</div>
+				<hr size=1>
 				<div class="ordering">
 					<h5>Ordering Options</h5>
 					<ul>
@@ -120,14 +123,16 @@
 						<li><input type="checkbox" name="custom" value="customizable">Customizable</li>
 					</ul>
 				</div>
+				<hr size=1>
 				<div class="location">
 					<h5>Shop Location</h5>
 					<ul>
 					<li><input type="radio" name="group2" value="anywhere" checked >Anywhere</li>
 					<li><input type="radio" name="group2" value="us">United States</li>
-					<li><a href="#">Choose a custom location</a></li>
+					<li><a href="#" class="solo">Choose a custom location</a></li>
 					</ul>
 				</div>
+				<hr size=1>
 				<div class="ship">
 					<h5>Ship To</h5>
 					<select name="Ship To" class="select" >
@@ -142,18 +147,31 @@
 							<option>Japan</option>
 							<option>Belize</option>
 						</optgroup>
-
 					</select>
 				</div>
-
+				</div>
+		</section>
+		<section>
+			<h3>Top categories for "free"</h3>
 		</section>
 
 
-	<script type="text/template" id="item-template">
+<img src="">
 
-
-	</script>
-
+	<script type="text/template" id="itemTemplate">
+  <div>
+    <img src="<%= Images[0].url_170x135%>">
+    <p>
+      <%= title%>
+    </p>  
+    <p>
+      <%= price%>
+    </p>
+    <p>
+      
+    </p>
+  </div>
+</script>
 </div>
 
 
